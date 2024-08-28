@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <img class="imagen__candado" src="img/imagen_candado.png">
+        <h1 class="titulo__header">Encriptador</h1>
+    </header>
+
+    <main class="main">
+        <section class="encriptador">
+            <div class="textarea__encriptador">
+                <textarea class="input__encriptador" id="inputUser" placeholder="Ingrese texto a encriptar o desencriptar"></textarea>
+                <textarea class="output__enctriptador" id="output" disabled placeholder="Resultado..."></textarea>
+            </div>
+
+            <div class="botones__encriptador">
+                <button class="boton__encriptar" onclick="encriptar();" type="submit">Encriptar</button>
+                <button class="boton__desencriptar"  onclick="desencriptar();" type="submit">Desencriptar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="firma">Developed by Diego Reche<br>
+            2024
+        </p>
+    </footer>
+
+    <script src="app.js" defer></script>
+
+</body>
+</html>
